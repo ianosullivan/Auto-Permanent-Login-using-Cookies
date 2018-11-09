@@ -23,15 +23,6 @@
 			hint="I am the template requested by the user."
 			/>
 
-		<!--- Page reload message // Used in footer.cfm. These are used with the JS toastr plugin --->
-		<cfparam name="SESSION.message.type" default="success"> <!--- Options are success,info,warning,error --->
-		<cfparam name="SESSION.message.content" default="">
-		<!--- Set some defaults that are used throughout the system --->
-		<cfparam name="SESSION.user.logged_in" default="false"> <!--- Used throughout the system --->
-		<cfparam name="SESSION.user.admin" default="false"> <!--- Used throughout the system --->
-		<cfparam name="SESSION.user.id" default="0"> <!--- Used throughout the system to --->
-
-
 		<!--- Other stuff removed from here for brevity --->
 		<!--- Other stuff removed from here for brevity --->
 		<!--- Other stuff removed from here for brevity --->
