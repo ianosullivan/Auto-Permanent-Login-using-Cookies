@@ -1,4 +1,7 @@
 <cfscript>
+
+param session.user.id = 0; //default value... signifies user is logged out
+
 /* 
 If SESSION.user.id is zero 
 AND 
